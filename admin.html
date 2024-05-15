@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio Gabriel García Márquez</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/facturaM.css">
+    <link rel="shortcut icon" href="img/logo ggm.png" type="image/x-icon">
+</head>
+<header>
+    <img src="img/logo ggm.png" alt=""class ="logo">
+    <h3 class="ti"><b>Colegio Gabriel García Márquez</b></h3>
+    <nav >
+      <ul class="menu-horizontal">
+        <li><a href="index.html"class="label1" >Inicio</a></li>
+              
+        <li><a href="conocenos.html" class="label1">Conócenos</a></li>
+        <li><a href="contact.html"class="label1">Contáctenos</a> </li>
+        <li><a class="barra"  href="iniciosesion.html">Iniciar Sesión</a>
+  
+          <ul class="menu-vertical">    
+            <li><a href="pagoM.php"class=lat2>Matrícula</a></li>
+            <li><a href="pagoP.php" class=lat2>Pensión</a></li>
+            <li><a href="admin.html" class=lat2>Administrador</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+<body>
+    <div class="container">
+        <a href="crud-M/acudientes.php" class="button acu">ACUDIENTES</a>
+        <a href="crud-M/estudiantes.php" class="button est">ESTUDIANTES</a>
+        <a href="crud-M/funcionarios.php" class="button func">FUNCIONARIOS</a>
+        <a href="crud-M/matricula.php" class="button mat">MATRICULAS</a>
+        <a href="crud-M/pension.php" class="button pens">PENSIONES</a>
+      </div>
+</body>
+
+
+</body>
+</html>
+
+
+<style>
+    header {
+  background-color: #f6f4ba;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+}
+.menu-horizontal{
+  margin-top: 30px;
+}
+header > h3{
+  margin-left: 180px;
+  top: -50px;
+  position: relative;
+}
+.logo {
+  margin-left: 70px;
+  margin-top: 10px;
+  width: 55px;
+  height: 65px;
+}
+.alinmenu{
+  padding-left: 110px;
+  margin-top: -50px;
+  margin-left: -7%;
+  width: 20%;
+  height: 50%;
+ }
+ .contac{
+  padding-top: 90px;
+  margin-top: 140px;
+  width: 20%;
+  margin-left: 70px;
+  }
+ .menu2{
+  margin-left: 600px;
+  margin-top: -50px;
+ }
+ .tex1fM{
+  display: inline-block;
+  padding-left: 22px;
+  margin-bottom: 5px;
+  margin-left: -170px;
+ }
+ .mb-4{
+  margin-top: 20px;
+ }
+ .mb-5{
+  margin-top: 44px;
+  margin-bottom: -20px;
+ }
+.tex1f1>h5{
+  bottom: 10px;
+}
+.tex2f1>h2{
+  bottom: 10px;
+}
+.tex3f1>h2{
+  top: 10px;
+}
+
+.socialT>h4{
+  color: white;
+  margin-left: 10px;
+
+}
+.fac img {
+  filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg) saturate(5);
+}
+
+.ins img {
+  filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg) saturate(5);
+}
+.tex2ff>h2{
+  color: white;
+}
+.socialT:hover h4{
+  color: black;
+}
+footer{
+  height: 380px;
+  background-color: #308446;
+  box-shadow: 0 5px 11px 5px  #f1ee90;
+  color: white;
+}
+.v-line1M{
+  margin-top: 6px;
+  border-left: 3px solid #000;
+  height:27px;
+  left: 10%;
+  position: absolute;
+}
+h3.ti :hover{
+color: #308446;}
+
+/*Lienas footer*/
+.v-line6M{
+  margin-top: 80px;
+  border-left: 3px solid white;
+  height:220px;
+  left: 38%;
+  position: absolute;
+}
+.v-line7M{
+  margin-top: -217px;
+  border-left: 3px solid white;
+  height:220px;
+  left: 67%;
+  position: absolute;
+}
+/*iconos*/
+.redes{
+  margin-left: 1025px;
+  margin-top: -250px;
+}
+.socialT{
+  color: white;
+  text-decoration: none;
+  margin-left: 79px;
+  margin-top: -30px; 
+}
+.socialT:hover{
+  color: white ;
+}
+.social{
+  width:48px;
+  right:0;
+  padding-bottom: 20px;
+  gap: 30px;
+  margin-left: 50.5px;
+  margin-top: -40px;
+}
+.tex2ff{
+  margin-bottom: 50px;
+}
+.menu2>ul{
+    margin-top: -50px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .button {
+    background: #308446;
+    color: #fff;
+    border: none;
+    height: 60px;
+    font-size: 1.5em;
+    border-radius: 8px;
+    padding: 0 2em;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    position: relative; /* Añadido */
+  }
+
+  .button:hover {
+    background: #fff;
+    color: #308446;
+  }
+
+  .button::before,
+  .button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #308446;
+    transition: width 400ms ease; /* Cambiado */
+  }
+
+  .button::after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+  }
+
+  .button:hover::before,
+  .button:hover::after {
+    width: 100%;
+  }
+</style>

@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Get rid of all default margins/paddings. Set typeface */
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: "lato", sans-serif;
+  margin-top: 180px;
+}
+header {
+  background-color: #f6f4ba;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+}
+.logo {
+  margin-left: 70px;
+  margin-top: 10px;
+  width: 55px;
+  height: 65px;
+}
+h3{
+  margin-left: 180px;
+  top: -50px;
+  position: relative;
+}
+.alinmenu{
+  padding-left: 110px;
+  margin-top: -150px;
+  margin-left: -7%;
+  width: 20%;
+  height: 50%;
+ }
+ .contac{
+  padding-top: 90px;
+  margin-top: 140px;
+  width: 20%;
+  margin-left: 70px;
+  }
+ .menu2{
+  margin-left: 600px;
+  margin-top: -50px;
+ }
+ .tex1fM{
+  display: inline-block;
+  padding-left: 22px;
+  margin-bottom: 5px;
+  margin-left: -170px;
+ }
+ .mb-4{
+  margin-top: 20px;
+ }
+ .mb-5{
+  margin-top: 44px;
+  margin-bottom: -20px;
+ }
+.tex1f1>h5{
+  bottom: 10px;
+}
+.tex2f1>h2{
+  bottom: 10px;
+}
+.tex3f1>h2{
+  top: 10px;
+}
+
+.socialT>h4{
+  color: white;
+  margin-left: 10px;
+
+}
+.fac img {
+  filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg) saturate(5);
+}
+
+.ins img {
+  filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg) saturate(5);
+}
+.tex2ff>h2{
+  color: white;
+}
+.socialT:hover h4{
+  color: black;
+}
+footer{
+  height: 380px;
+  background-color: #308446;
+  box-shadow: 0 5px 11px 5px  #f1ee90;
+  color: white;
+}
+.v-line1M{
+  margin-top: 6px;
+  border-left: 3px solid #000;
+  height:27px;
+  left: 10%;
+  position: absolute;
+}
+h3.ti :hover{
+color: #308446;}
+
+/*Lienas footer*/
+.v-line6M{
+  margin-top: 80px;
+  border-left: 3px solid white;
+  height:220px;
+  left: 38%;
+  position: absolute;
+}
+.v-line7M{
+  margin-top: -217px;
+  border-left: 3px solid white;
+  height:220px;
+  left: 67%;
+  position: absolute;
+}
+/*iconos*/
+.redes{
+  margin-left: 1025px;
+  margin-top: -250px;
+}
+.socialT{
+  color: white;
+  text-decoration: none;
+  margin-left: 79px;
+  margin-top: -30px; 
+}
+.socialT:hover{
+  color: white ;
+}
+.social{
+  width:48px;
+  right:0;
+  padding-bottom: 20px;
+  gap: 30px;
+  margin-left: 50.5px;
+  margin-top: -40px;
+}
+.tex2ff{
+  margin-bottom: 50px;
+}
+.menu2>ul{
+    margin-top: -50px;
+}
+.tex1f>h2{
+    margin-top: -50px;
+    color: white  ;
+}
+.tex1f1>h5{
+    margin-top: 60px;
+    color: white;
+}
+.tex1fM>h3{
+margin-top: -20px;
+  color: white;
+  margin-left: 180px;
+}
+.tex1f2>h5{
+ 
+  color: white;
+}
+.tex1f3>h5{
+
+  color: white;
+}
+.mision{
+  width: 200px;
+  margin-left: 150px;
+  margin-top: -90px;
+}
+.mision>h4{
+  margin-left: 5px;
+}
+.iconoM{
+  width: 107px;
+}
+.iconoM>img{
+  width: 107px;
+  height: 100px;
+  margin-left: 30px;
+  margin-top: 60px;
+  padding: 0%;
+}
+
+.vision{
+  width: 200px;
+  margin-left: 500px;
+  margin-top: -580px;
+}
+.vision>h4{
+  margin-left: 3px;
+}
+.iconoV>img{
+  width: 105px;
+  height: 105px;
+  margin-left: 380px;
+  margin-top: -1050px;
+}
+
+.info{
+  background-color: rgb(248, 245, 245);
+  width: 550px;
+  padding: 30px;
+  margin-top: -480px;
+  margin-left: 770px;
+  border-radius: 7px;
+}
+
+.ggm{
+  width: 600px;
+  text-align: center;
+  margin-top: 40px;
+}
+.frase1{
+  margin-top: -80px;
+  width: 600px;
+  margin-left: 250px;
+  text-align: left;
+}
+.fr1{
+  width: 135px;
+  height: 135px;
+  margin-left: -550px;
+  padding: 0%;
+}
+.frase2{
+  margin-top: -80px;
+  width: 600px;
+  margin-left: 250px;
+  text-align: left;
+}
+.fr2{
+  width: 135px;
+  height: 135px;
+  margin-left: -550px;
+  padding: 0%;
+}
+.frase3{
+  margin-top: -80px;
+  width: 600px;
+  margin-left: 250px;
+  text-align: left;
+}
+.fr3{
+  width: 135px;
+  height: 135px;
+  margin-left: -550px;
+  padding: 0%;
+}
+.frase4{
+  margin-top: -80px;
+  width: 600px;
+  margin-left: 250px;
+  text-align: left;
+}
+.fr4{
+  width: 135px;
+  height: 135px;
+  margin-left: -550px;
+  padding: 0%;
+}
+.frase5{
+  margin-top: -80px;
+  width: 600px;
+  margin-left: 250px;
+  text-align: left;
+}
+.fr5{
+  width: 135px;
+  height: 135px;
+  margin-left: -550px;
+  padding: 0%;
+}
+.conv{
+  width: 800px;
+  text-align: center;
+}
+.conv>h2>span{
+  color: #47b461;
+}
+.conv>h2{
+  color: #d4d051;
+  text-align: center;
+}
+.convenios{
+  padding: 15px;
+}
+.usta{
+  margin-left: 40px;
+  width: 600px;
+}
+.usta>h3{
+  margin-left: -3px;
+  margin-top: 55px;
+  z-index: -1;
+}
+.usta>p{
+  margin-top: -40px;
+}
+.usta>img{
+  width: 590px;
+  height: 300px;
+}
+.udb{
+  margin-left: 700px;
+  width: 600px;
+  margin-top: -525px;
+}
+.udb>h3{
+  margin-left: -3px;
+  margin-top: 55px;
+  z-index: -1;
+}
+.udb>p{
+  margin-top: -40px;
+}
+.udb>img{
+  width: 590px;
+  height: 300px;
+}
+.jdc{
+  margin-left: 40px;
+  width: 600px;
+  margin-top: 100px;
+}
+.jdc>h3{
+  margin-left: -3px;
+  margin-top: 55px;
+  z-index: -1;
+}
+.jdc>p{
+  margin-top: -40px;
+}
+.jdc>img{
+  width: 590px;
+  height: 300px;
+}
+.sena{
+  margin-left: 710px;
+  width: 600px;
+  margin-top: -495px;
+}
+.sena>h3{
+  margin-left: -3px;
+  margin-top: 55px;
+  z-index: -1;
+}
+.sena>p{
+  margin-top: -40px;
+}
+.sena>img{
+  width: 560px;
+  height: 300px;
+}
+

@@ -1,0 +1,66 @@
+/*boton descarga*/
+.download-button {
+    position: relative;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    border-style: solid; /* Estilo del borde (en este caso, sólido) */
+    color: #308446; /* Color del texto interior del botón */
+   }
+   
+   .download-button .docs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-height: 40px;
+    padding: 0 10px;
+    border-radius: 4px;
+    background-color: white;
+    border: solid 1px #e8e8e82d;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+   }
+   
+   .download-button:hover {
+    box-shadow: #01e0572d 0px 54px 55px, #01e0572d 0px -12px 30px,#01e0572d 0px 4px 6px, #01e0572d 0px 12px 13px, #1c6d3b2d 0px -3px 5px;
+   }
+   
+   .download {
+    position: absolute;
+    inset: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+    border-radius: 4px;
+    transform: translateY(0%);
+    background-color: #308446;
+    border: solid 1px #01e0572d;
+    z-index: -1;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+   }
+   
+   .download-button:hover .download {
+    transform: translateY(100%)
+   }
+   
+   .download svg polyline,.download svg line {
+    animation: docs 1s infinite;
+   }
+   
+   @keyframes docs {
+    0% {
+     transform: translateY(0%);
+    }
+   
+    50% {
+     transform: translateY(-15%);
+    }
+   
+    100% {
+     transform: translateY(0%);
+    }
+   }

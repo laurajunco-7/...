@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #f6f4ba;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+}
+.menu-horizontal{
+    margin-top: 30px;
+}
+h3{
+    margin-left: 180px;
+    top: -50px;
+    position: relative;
+}
+.logo {
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 55px;
+    height: 65px;
+}
+.persona{
+    width: 150px;
+    height: 155px;
+    margin-top: 20px;
+    margin-left: 70px;
+    gap: 50px;
+}
+.datosEst {
+    margin: 0 auto;
+    width: 550px; 
+    margin-top: -120px;
+    margin-left: 430px;
+    gap: 50px;
+}
+.submitBtn {
+    display: block;
+    width: 250px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 1em;
+    text-decoration: none;
+}
+.submitBtn {
+    display: block;
+    width: 250px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 1em;
+    text-decoration: none;
+}
+.submitBtn:hover {
+    background-color: #45a049;
+}
+.navegacion {
+    margin-left: 340px;
+    margin-top: -41px;
+}
+.searchInput {
+    width: 500px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+.searchInput::placeholder {
+    color: #aaa;
+}
+.searchInput:focus {
+    outline: none;
+    border-color: #45a049;
+}
+.content-select select{
+	width: 150px;
+  	padding: 7px 10px;
+  	height: 42px;
+    border: 2px solid #ccc;
+	font-size: 1em;
+	color: #aaa;
+    border-radius: 12px;
+    margin-left: 900px;
+    gap: 50px;
+    margin-top: 140px;
+}
+.content-select select:focus{
+    outline: none;
+    border-color: #45a049;
+}
+
+    .inputContainer {
+        margin-bottom: 10px;
+        justify-content: center;
+        
+    }
+    .inputE {
+        width: 500px;
+        padding: 8px;
+        border: 2px solid #ccc;
+        border-radius: 12px; 
+        box-sizing: border-box; 
+        text-align: center;
+        font-size: 1em;
+    }
+    .inputE:focus {
+        outline: none;
+        border-color: #45a049;
+    }
+
+    .alinmenu{
+        padding-left: 110px;
+        display: inline-block;
+        margin-top: -296px;
+        margin-left: 37%;
+        width: 25%;
+        
+      
+       }
+       .contac{
+        padding-top: 90px;
+         margin-top: 60px;
+        }
+       .menu2{
+        margin-left: 600px;
+        margin-top: -30px;
+       }
+       .tex1fM{
+        display: inline-block;
+        padding-left: 22px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+       }
+      footer{
+        height: 380px;
+        background-color: f6f4ba;
+        box-shadow: 0 5px 11px 5px  #f1ee90;
+      }
+      .v-line1M{
+        margin-top: 6px;
+        border-left: 3px solid #000;
+        height:27px;
+        left: 10%;
+        position: absolute;
+      }
+      /*Lienas footer*/
+      .v-line6M{
+        margin-top: 20px;
+        border-left: 3px solid #000;
+        height:220px;
+        left: 40%;
+        position: absolute;
+      }
+      .v-line7M{
+        margin-top: -217px;
+        border-left: 3px solid #000;
+        height:220px;
+        left: 64%;
+        position: absolute;
+      }
+      
+      
+      /*iconos*/
+      
+      .redes{
+      margin-left: 1025px;
+      margin-top: -250px;
+      
+      }
+      .socialT{
+        color: #000;
+        text-decoration: none;
+        
+        margin-left: 79px;
+        margin-top: -30px;
+      
+        
+      }
+      .socialT:hover{
+        color: #28a745 ;
+      }
+              .social{
+                  
+                  width:48px;
+                  top:50px;
+                  right:0;
+            padding-bottom: 20px;
+            gap: 30px;
+            margin-left: 50.5px;
+              }
+      .tex2ff{
+        margin-bottom: 20px;
+      }
+      
+    /*menu*/
+ 
+.alinmenu{
+  padding-left: 110px;
+  margin-top: -130px;
+  margin-left: 37%;
+  width: 20%;
+  
+   }
+   .contac{
+    padding-top: 90px;
+     margin-top: 120px;
+     width: 20%;
+     margin-left: 70px;
+    }
+   .menu2{
+    margin-left: 600px;
+    margin-top: -50px;
+   }
+   .tex1fM{
+    display: inline-block;
+    padding-left: 22px;
+    margin-bottom: 5px;
+    margin-left: -170px;
+   }
+  footer{
+    height: 380px;
+    background-color: #f6f4ba;
+    box-shadow: 0 5px 11px 5px  #f1ee90;
+
+  }
+  .v-line1M{
+    margin-top: 6px;
+    border-left: 3px solid #000;
+    height:27px;
+    left: 10%;
+    position: absolute;
+  }
+  /*Lienas footer*/
+  .v-line6M{
+    margin-top: 70px;
+    border-left: 3px solid #000;
+    height:220px;
+    left: 35%;
+    position: absolute;
+  }
+  .v-line7M{
+    margin-top: -217px;
+    border-left: 3px solid #000;
+    height:220px;
+    left: 67%;
+    position: absolute;
+  }
+  
+  
+  /*iconos*/
+  
+  .redes{
+  margin-left: 1025px;
+  margin-top: -250px;
+  
+  }
+  .socialT{
+    color: #000;
+    text-decoration: none;
+    
+    margin-left: 79px;
+    margin-top: -30px;
+  
+    
+  }
+  .socialT:hover{
+    color: #28a745 ;
+  }
+          .social{
+              
+              width:48px;
+              top:50px;
+              right:0;
+        padding-bottom: 20px;
+        gap: 30px;
+        margin-left: 50.5px;
+          }
+  .tex2ff{
+    margin-bottom: 40px;
+  }
+  
+    

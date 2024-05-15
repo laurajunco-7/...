@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Get rid of all default margins/paddings. Set typeface */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: "lato", sans-serif;
+  margin-top: 60px;
+}
+header {
+  background-color: #f6f4ba;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+}
+.menu-horizontal{
+  margin-top: 30px;
+}
+header > h3{
+  margin-left: 180px;
+  top: -50px;
+  position: relative;
+}
+.logo {
+  margin-left: 70px;
+  margin-top: 10px;
+  width: 55px;
+  height: 65px;
+}
+.signupFrm {
+  margin-top: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: -70%;
+  }
+/* estilizar el formulario un poco */
+  .form {
+    background-color: white;
+    width: 500px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px #28a745;
+    margin-top: 180px;
+  }
+  
+  .title {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  /*estilizar al div que contiene las entradas del formulario y las etiquetas del formulario*/
+  .inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+  }
+  /* estilo a nuestras entradas */
+
+.Usuario {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+  }
+  .Contraseña {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+  }
+  
+  /* Hide the placeholder texts (a) */
+  
+  ::placeholder {
+    color: transparent;
+  }
+  Explain
+
+
+.label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 0 4px;
+  background-color: white;
+  color: #DADCE0;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+}
+/* Estilo a las etiquetas de texto */
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: #DADCE0;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+  }
+  /*botones*/
+  .submitBtn {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 150px;
+  }
+  
+  .submitBtn:hover {
+    background-color: #4ead64;
+    transform: translateY(-2px);
+  }
+  .Usuario:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: #28a745;
+  }
+  .Usuario:focus {
+    border: 2px solid #28a745;
+  }
+
+/*Borde color*/
+  .Usuario:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .Contraseña:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: #28a745;
+  }
+  .Contraseña:focus {
+    border: 2px solid #28a745;
+  }
+
+/*Borde color*/
+  .Contraseña:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .cuenta1{
+    color: #28a745;
+    text-decoration: none;
+  }
+  .cuenta2{
+    color: #28a745;
+    text-decoration: none;
+    margin-left: 40px;
+  }
+  /*Alinear cajas */
+
+  .Links{
+  
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 360px;
+  }
+   .v-linef{
+    border-left: 3px solid #000;
+    height:230px;
+    left: 51%;
+    position: absolute;
+    display: inline-block;
+   }
+   .col{
+
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 120px;
+    
+   }
+ .ncol{
+ 
+  display: flex;
+  margin: 0 auto;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+ }
+ 
+ .imgfooter{
+  margin-left: 70px;
+  margin-top: 1px;
+  
+ }
+ .tex1f{
+  margin-left: 180px;
+  margin-top: -50px;
+ 
+ }
+ .tex1f3{
+  margin-left: 180px;
+  margin-top: 3px;
+  margin-bottom: 30px;
+ }
+ .tex1f1{
+  margin-top: 30px;
+  margin-left: 180px;
+  margin-bottom: 30px;
+
+ }
+ .tex1f2{
+  margin-top: 30px;
+  margin-left: 180px;
+  margin-bottom: 70px;
+ 
+  
+ }
+ /*menu*/
+ .alinmenu{
+ margin-top: -16%;
+ margin-left: 30%;
+ width: 20%;
+ height: 50%;
+}
+.contac{
+ padding-top: 10%;
+ margin-top: 20%;
+ width: 20px;
+ margin-left: -5%;
+ }
+.menu2{
+ margin-left: 50%;
+}
+.tex1fM>h3{
+ margin-bottom: 25%;
+}
+.mb-4{
+ margin-top: 20px;
+}
+.mb-5{
+ margin-top: 44px;
+ margin-bottom: -20px;
+}
+.socialT>h4{
+ color: white;
+ margin-left: 10px;
+}
+.fac img {
+ filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg) saturate(5);
+}
+
+.ins img {
+ filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg) saturate(5);
+}
+.tex2ff>h2{
+ color: white;
+}
+.socialT:hover h4{
+ color: black;
+}
+
+footer{
+ height: 380px;
+ background-color: #308446;
+ box-shadow: 0 5px 11px 5px  #f1ee90;
+ color: white;
+}
+.v-line1M{
+ margin-top: 6px;
+ border-left: 3px solid #000;
+ height:27px;
+ left: 10%;
+ position: absolute;
+}
+h3.ti :hover{
+color: #308446;}
+
+/*Lienas footer*/
+.v-line6M{
+ margin-top: 80px;
+ border-left: 3px solid white;
+ height:220px;
+ left: 38%;
+ position: absolute;
+}
+.v-line7M{
+ margin-top: -242px;
+ border-left: 3px solid white;
+ height:220px;
+ left: 67%;
+ position: absolute;
+}
+/*iconos*/
+.redes{
+ margin-left: 77%;
+ margin-top: -18%;
+}
+.socialT{
+ color: white;
+ text-decoration: none;
+ margin-left: 79px;
+ margin-top: -30px; 
+}
+.socialT:hover{
+ color: white ;
+}
+.tex2ff{
+ margin-bottom: 50px;
+}
+.tex1f1>h5{
+   margin-top: -35%;
+   color: white;
+}
+.tex1f1{
+ padding-top: 150%;
+ width: 100px;
+}
+.tex1fM>h3{
+ margin-top: -20%;
+ color: white;
+ margin-left: 180px;
+}
+.tex1f2>h5{
+ color: white;
+ width: 100px;
+}
+.tex1f3>h5{
+ width: 100px;
+ color: white;
+}

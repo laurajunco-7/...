@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/carruselGGM.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="carousel">
+                <input type="radio" name="slides" checked="checked" id="slide-1">
+                <input type="radio" name="slides" id="slide-2">
+                <input type="radio" name="slides" id="slide-3">
+                <input type="radio" name="slides" id="slide-4">
+                <input type="radio" name="slides" id="slide-5">
+
+                <ul class="carousel__slides">
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="images/ggm.png" alt="">
+                            </div>
+                            <figcaption>
+                                "No llores porque ya se terminó, sonríe porque sucedió".
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="images/ggm.png" alt="">
+                            </div>
+                            <figcaption>
+                                "La vida no es la que uno vivió, sino la que uno recuerda y cómo la recuerda para contarla".    
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="images/ggm.png" alt="">
+                            </div>
+                            <figcaption>
+                                "No hay medicina que cure lo que no cura la felicidad". 
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="images/ggm.png" alt="">
+                            </div>
+                            <figcaption>
+                                "La peor forma de extrañar a alguien es estar sentado a su lado y saber que nunca lo podrás tener".  
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="images/ggm.png" alt="">
+                            </div>
+                            <figcaption>
+                                "El amor se hace más grande y noble en la calamidad". 
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    
+    <script>
+        // Obtener los radios y la cantidad de diapositivas
+        const radios = document.querySelectorAll('.carousel input[type="radio"]');
+        const totalSlides = radios.length;
+      
+        // Función para avanzar al siguiente slide
+        function nextSlide() {
+          let nextIndex;
+          // Encontrar el índice del siguiente radio
+          radios.forEach((radio, index) => {
+            if (radio.checked) {
+              nextIndex = (index + 1) % totalSlides;
+              radio.checked = false;
+            }
+          });
+          // Seleccionar el siguiente radio
+          radios[nextIndex].checked = true;
+        }
+      
+        // Cambiar de slide cada 5 segundos (5000 milisegundos)
+        setInterval(nextSlide, 6000);
+      </script>
+</body>
+</html>
